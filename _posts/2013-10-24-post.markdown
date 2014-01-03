@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Post Numero Uno"
-date:   2013-10-31 13:24:37
+date: 2013-10-31 13:24:37
 ---
 
-Congrats on setting up Jekyll!
+Congrats on setting up Wheat!
 
-Go ahead to assets/sass/main.sass and begin styling it up!
+Go ahead to the assets folder and begin styling it up!
 
 If you have any questions, give me a shout!
 

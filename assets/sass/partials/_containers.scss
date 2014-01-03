@@ -1,0 +1,11 @@
+// ********************
+//
+// Interface Containers
+//
+// ********************
+
+.container {
+  max-width: 600px;
+  padding: 0 10px;
+  @include flex;
+}

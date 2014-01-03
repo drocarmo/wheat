@@ -1,10 +1,12 @@
-### Ruby-Jekyll-Sass-boiler
+### Wheat
 
-A simple Ruby-engined blog running on Jekyll and compiling Sass. Everything you ever needed in life.
+A simple Jekyll-Sass blog boilerplate running on Ruby.
+
+Everything you need to quickly build a static site, or prototype an idea.
 
 #### How to get started:
 
-1. Open your terminal in your designated directory: `git clone git@github.com:drocarmo/ruby-jekyll-sass-boiler.git`
+1. Open your terminal in your designated directory: `git clone git@github.com:drocarmo/wheat.git`
 
 2. Run rake
 

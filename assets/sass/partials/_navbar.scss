@@ -1,0 +1,52 @@
+// ********************
+//
+// Navigation Style
+//
+// ********************
+
+.navbar {
+  padding-top: 10px;
+  display: inline-block;
+  width: 100%;
+  min-height: 50px;
+
+  .navbar--logo {
+    display: inline-block;
+    overflow: hidden;
+    padding: 10px 0;
+
+    .navbar--logo_svg {
+      width: 64px;
+    }
+  }
+
+  .navbar--nav {
+    display: inline-block;
+    float: right;
+    padding: 12px 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    padding-left: 20px;
+    font-size: 90%;
+  }
+
+}
+
+svg {
+  position: absolute;
+}
+
+.svg {
+  fill: #444;
+
+  &:hover {
+    fill: #676767;
+  }
+}
