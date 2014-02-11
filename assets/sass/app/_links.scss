@@ -6,8 +6,5 @@
 
 a {
   text-decoration: none;
-  color: $color-brand-main;
-  &:hover {
-    color: darken($color-brand-main, 10%)
-  }
+  color: inherit;
 }

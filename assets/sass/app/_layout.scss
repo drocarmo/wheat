@@ -1,0 +1,6 @@
+// Main Container
+
+.container {
+  max-width: 600px;
+  @include flex;
+}

@@ -1,0 +1,42 @@
+// Google Fonts Imports
+
+$google-serif: 'Bitter';
+$google-sans: 'Montserrat';
+
+//
+// Base Typographic Weights
+//
+
+$type-light: 100;
+$type-regular: 400;
+$type-bold: 700;
+
+//
+// Base Typography
+//
+
+$base-type: $google-serif, serif;
+$base-type-sans: $google-sans, Helvetica, sans-serif;
+$base-type-code: Monaco, "Courier New", monospace;
+$base-type-weight: $type-regular;
+$base-type-weight-bold: $type-bold;
+$base-type-size: 1.195em;
+$base-type-lineheight: 1.65;
+
+
+html {
+  font-family: $base-type;
+  font-size: $base-type-size;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}

@@ -1,0 +1,27 @@
+// Header styles
+
+.header {
+  img {
+    width: 100px;
+  }
+
+  ul {
+    display: inline-block;
+    float: right;
+    list-style: none;
+
+    li {
+      float: left;
+      margin: 5px 14px 0 0;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        text-decoration: none;
+        display: inline-block;
+      }
+    }
+  }
+}

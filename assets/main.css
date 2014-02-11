@@ -198,230 +198,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-* {
-  margin: 0;
-  padding: 0; }
-
-html, body {
-  height: 100%; }
-
-body {
-  background-color: white;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-  padding: 20px;
-  color: #333333; }
-
-.btn, .btn--navbar, .btn--primary, .btn--warning, .btn--danger {
-  border: 3px solid;
-  font-size: 90%;
-  padding: 4px 18px;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.2s ease-out !important;
-  -o-transition: background-color 0.2s ease-out !important;
-  -ms-transition: background-color 0.2s ease-out !important;
-  -moz-transition: background-color 0.2s ease-out !important;
-  -webkit-transition: background-color 0.2s ease-out !important; }
-  .btn:hover, .btn--navbar:hover, .btn--primary:hover, .btn--warning:hover, .btn--danger:hover {
-    background: #dc000b; }
-  .btn:active, .btn--navbar:active, .btn--primary:active, .btn--warning:active, .btn--danger:active {
-    border-color: #dc000b; }
-  .btn:focus, .btn--navbar:focus, .btn--primary:focus, .btn--warning:focus, .btn--danger:focus {
-    outline: none; }
-
-.btn--navbar {
-  background: transparent; }
-
-.btn--primary {
-  border-color: #ff434c;
-  background: #ff434c; }
-
-.btn--warning {
-  border-color: #d2ab59;
-  background: #d2ab59; }
-
-.btn--danger {
-  border-color: #903d3d;
-  background: #903d3d; }
-
-code {
-  font-family: Monaco, "Courier New", monospace;
-  background: white;
-  color: #ff434c;
-  max-width: 100%;
-  display: block;
-  padding: 10px; }
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em; }
-  .site a {
-    font-weight: bold;
-    text-decoration: none; }
-    .site a .header h1.title {
-      display: inline-block;
-      margin-bottom: 2em; }
-      .site a .header h1.title a {
-        color: #aa0000; }
-        .site a .header h1.title a:hover {
-          color: #333333; }
-
-.site .header a.extra {
-  color: #aaaaaa;
-  margin-left: 1em; }
-
-.site .header a.extra:hover {
-  color: #333333; }
-
-.site .meta {
-  color: #aaaaaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%; }
-
-.site .footer .contact {
-  float: left;
-  margin-right: 3em; }
-
-.site .footer .rss {
-  margin-right: 2px;
-  float: right; }
-  .site .footer .rss img {
-    border: 0; }
-
-.post pre {
-  border: 1px solid #dddddd;
-  background-color: #eeeeff;
-  padding: 0 0.4em; }
-
-.post ul, .post ol {
-  margin-left: 1.35em; }
-
-.post pre.terminal {
-  border: 1px solid #333333;
-  background-color: #aaaaaa;
-  color: white; }
-
 .container {
   max-width: 600px;
-  padding: 0 10px;
   margin: 0 auto; }
 
-.footer {
-  margin: 2em 0 0 0;
-  font-size: 80%;
-  border-top: 4px solid #eeeeee; }
-
-.input {
-  border: 1px solid #efefef;
-  padding: 6px;
-  font-size: 90%;
-  width: 50%;
-  transition: border-color 0.2s ease-out !important;
-  -o-transition: border-color 0.2s ease-out !important;
-  -ms-transition: border-color 0.2s ease-out !important;
-  -moz-transition: border-color 0.2s ease-out !important;
-  -webkit-transition: border-color 0.2s ease-out !important; }
-  .input:hover {
-    border-color: #d5d5d5; }
-  .input:focus {
-    outline: 1px solid #bcbcbc;
-    outline-offset: 0;
-    border: 1px solid #bcbcbc; }
-
-.fieldset {
-  border: none;
-  margin: 10px 0;
-  padding: 0; }
-  .fieldset .input {
-    margin: 2px 0; }
-
-.centered {
-  text-align: center; }
-
-.masthead {
-  margin: 0 auto;
-  padding-top: 2em;
-  padding-bottom: 4em; }
-
-.bodycontent {
-  background-color: #5299c4;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-a {
-  text-decoration: none;
-  color: #ff434c; }
-  a:hover {
-    color: #ff101b; }
-
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em; }
-  ul.posts li {
-    line-height: 1.75em; }
-  ul.posts span {
-    color: #aaaaaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%; }
-
-.menu {
-  color: #efefef; }
-
-.navbar {
-  padding-top: 10px;
-  display: inline-block;
-  width: 100%;
-  min-height: 50px; }
-  .navbar .navbar--logo {
-    display: inline-block;
-    overflow: hidden;
-    padding: 10px 0; }
-    .navbar .navbar--logo .navbar--logo_svg {
-      width: 64px; }
-  .navbar .navbar--nav {
-    display: inline-block;
-    float: right;
-    padding: 12px 0; }
-  .navbar ul {
-    margin: 0;
-    padding: 0; }
-  .navbar li {
-    display: inline;
-    padding-left: 20px;
-    font-size: 90%; }
-
-svg {
-  position: absolute; }
-
-.svg {
-  fill: #444; }
-  .svg:hover {
-    fill: #676767; }
-
-table {
-  text-align: center;
-  width: 100%; }
-  table thead {
-    background: #efefef; }
-    table thead tr th {
-      border: 1px solid #efefef; }
-  table tbody tr td {
-    border: 1px solid #efefef; }
-
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Bitter", serif;
   font-size: 1.195em; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -432,3 +214,62 @@ h1 {
 
 p {
   margin: 1em 0; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-color: white;
+  font-family: "Bitter", serif;
+  text-align: center;
+  padding: 20px;
+  color: #333333; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.header img {
+  width: 100px; }
+.header ul {
+  display: inline-block;
+  float: right;
+  list-style: none; }
+  .header ul li {
+    float: left;
+    margin: 5px 14px 0 0; }
+    .header ul li:last-child {
+      margin-right: 0; }
+    .header ul li a {
+      text-decoration: none;
+      display: inline-block; }
+
+.footer {
+  margin: 2em 0 0 0;
+  font-size: 80%;
+  border-top: 4px solid #eeeeee; }
+
+code {
+  font-family: Monaco, "Courier New", monospace;
+  background: #aaaaaa;
+  color: #333333;
+  max-width: 100%;
+  display: block;
+  padding: 10px; }
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em; }
+  ul.posts span {
+    color: #aaaaaa;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 80%; }

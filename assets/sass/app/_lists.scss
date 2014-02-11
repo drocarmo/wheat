@@ -13,11 +13,10 @@
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
-  li {
-    line-height: 1.75em;
-  } span {
-    color: $color-grey;
-    font-family: $base-type-code;
+
+  span {
+    color: $color-gray;
+    font-family: $base-type-sans;
     font-size: 80%;
   }
 }
