@@ -1,15 +1,18 @@
 ---
 layout: post
-title: "Post Numero Uno"
-date: 2013-10-31 13:24:37
+title: Here's an example post
 ---
 
-Congrats on setting up Wheat!
+Hello world, I heard you like Jekyll.
 
-Go ahead to the assets folder and begin styling it up!
+Then maybe you should consider this: if anything happens to them, Starfleet is going to want a full investigation. Did you come here for something in particular or just general Jekyll-bashing?
 
-If you have any questions, give me a shout!
+We have a saboteur aboard. Your head is not an artifact! Mr. Worf, you sound like a man who's asking his friend if he can start dating his sister. I'll alert the crew. Sure. You'd be surprised how far a hug goes with Geordi, or Worf. We finished our first sensor sweep of the neutral zone.
 
-[@drocarmo](https://twitter.com/drocarmo)
+Talk about going nowhere fast. Wouldn't that bring about chaos? Some days you get the bear, and some days the bear gets you. Maybe if we felt any human loss as keenly as we feel one of those close to us, human history would be far less bloody. Earl Grey tea, watercress sandwiches... and Bularian canapés? Are you up for promotion?
 
-[pe@drocarmo.com](mailto:pe@drocarmo.com?subject=Hey Pedro&amp;body=I need some help with..)
+I'm afraid I still don't understand, sir. I will obey your orders. I will serve this ship as First Officer. And in an attack against the Enterprise, I will die with this crew. But I will not break my oath of loyalty to Starfleet. This should be interesting. Now we know what they mean by 'advanced' tactical training.
+
+This is not about revenge. This is about justice. Shields up! Rrrrred alert! I'd like to think that I haven't changed those things, sir. I think you've let your personal feelings cloud your judgement. I guess it's better to be lucky than good. And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+
+Yes, absolutely, I do indeed concur, wholeheartedly! Could someone survive inside a transporter buffer for 75 years?

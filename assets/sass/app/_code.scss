@@ -1,14 +1,10 @@
-// ********************
-//
-// Code Style
-//
-// ********************
+// Code Styles
 
 code {
   font-family: $base-type-code;
-  background: $color-gray;
-  color: $color-black;
-  max-width: 100%;
-  display: block;
+  background: lighten($color-gray, 30%);
+  color: darken($color-gray, 5%);
   padding: 10px;
+  word-wrap: break-word;
+  display: block;
 }

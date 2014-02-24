@@ -1,42 +1,28 @@
 // Google Fonts Imports
 
-$google-serif: 'Bitter';
-$google-sans: 'Montserrat';
+$google-serif: 'Merriweather';
+$google-logo: 'Bitter';
 
-//
-// Base Typographic Weights
-//
+// Base Typography Styles
 
-$type-light: 100;
-$type-regular: 400;
-$type-bold: 700;
-
-//
-// Base Typography
-//
-
-$base-type: $google-serif, serif;
-$base-type-sans: $google-sans, Helvetica, sans-serif;
-$base-type-code: Monaco, "Courier New", monospace;
-$base-type-weight: $type-regular;
-$base-type-weight-bold: $type-bold;
-$base-type-size: 1.195em;
-$base-type-lineheight: 1.65;
+$base-type: $google-serif, Times New Roman, serif;
+$base-type-logo: $google-logo, serif;
+$base-type-code: Menlo, Monaco, monospace;
+$type-weight-regular: 400;
 
 
 html {
   font-family: $base-type;
-  font-size: $base-type-size;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-}
-
-h1 {
-  margin-bottom: 1em;
+  font-weight: $type-weight-regular;
 }
 
 p {
-  margin: 1em 0;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.logo {
+  font-family: $base-type-logo;
+  display: inline-block;
+  font-size: 40px;
 }

@@ -1,25 +1,27 @@
 ### Wheat
 
-A simple Jekyll-Sass blog boilerplate running on Ruby.
+Wheat is a simple Jekyll template for designers.
 
-Everything you need to quickly build a static site, or prototype an idea.
+It is a great starting point to help any designer quickly wip out a simple blog app, a product marketing page, prototype an idea or any instance of building a dynamic site.
 
 #### How to get started:
 
 1. Open your terminal in your designated directory: `git clone git@github.com:drocarmo/wheat.git`
 
-2. Run rake
+2. Run `rake`
 
 3. Open your browser in localhost:4000
 
 4. Begin customizing your new Jekyll site!
 
-5. Any questions? [Shoot me a note.](mailto:pe@drocarmo.com?subject=Hey Pedro&amp;body=I need some help with..)
+#### A few pointers if you're brand new to Jekyll:
 
-#### A few pointers:
+— First, you have to [install](http://jekyllrb.com/docs/installation/) Jekyll.
 
-— Read full Jekyll documentation [here](http://jekyllrb.com/docs/home/).
+— Read through the Jekyll documentation [here](http://jekyllrb.com/docs/home/).
 
-— Brand new to Jekyll? Go through Greg's [setup guide](http://vgdub.com/blog/building-a-blog-with-jekyll/).
+— Read/watch my friend Greg's [setup guide](http://vgdub.com/blog/building-a-blog-with-jekyll/).
 
-— Some other excellent Jekyll examples are [Robb's Jekyll repository](https://github.com/robbschiller/jekyll-boilerplate) and [Greg's Jekyll repository](https://github.com/vgdub/vgdub.github.io).
+— Familarize yourself with the Jekyll structure by looking at some other excellent, more advanced Jekyll examples: [Robb's Jekyll repository](https://github.com/robbschiller/jekyll-boilerplate), [Greg's Jekyll repository](https://github.com/vgdub/vgdub.github.io) and [Mig's Jekyll repository](https://github.com/migreyes/hazelnut).
+
+Any questions? [Shoot me a note.](mailto:pe@drocarmo.com?subject=Hey Pedro&amp;body=I need some help with Wheat..)

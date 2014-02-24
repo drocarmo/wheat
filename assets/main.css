@@ -199,77 +199,74 @@ table {
   border-spacing: 0; }
 
 .container {
-  max-width: 600px;
+  width: 90%;
   margin: 0 auto; }
+  @media screen and (min-width: 700px) {
+    .container {
+      max-width: 600px; } }
 
 html {
-  font-family: "Bitter", serif;
-  font-size: 1.195em; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 {
-  margin-bottom: 1em; }
+  font-family: "Merriweather", Times New Roman, serif;
+  font-weight: 400; }
 
 p {
-  margin: 1em 0; }
+  font-size: 18px;
+  margin: 20px 0; }
+
+.logo {
+  font-family: "Bitter", serif;
+  display: inline-block;
+  font-size: 40px; }
 
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0; }
 
-html, body {
+html,
+body {
   height: 100%; }
 
 body {
-  background-color: white;
-  font-family: "Bitter", serif;
-  text-align: center;
+  font-family: "Merriweather", Times New Roman, serif;
+  text-align: left;
   padding: 20px;
-  color: #333333; }
+  color: #414141; }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit; }
 
-.header img {
-  width: 100px; }
-.header ul {
-  display: inline-block;
-  float: right;
+ul {
   list-style: none; }
-  .header ul li {
-    float: left;
-    margin: 5px 14px 0 0; }
-    .header ul li:last-child {
-      margin-right: 0; }
-    .header ul li a {
-      text-decoration: none;
-      display: inline-block; }
+
+.header a {
+  text-decoration: none;
+  display: inline-block; }
+.header img.logo {
+  width: 50px;
+  margin-bottom: -10px; }
+.header ul {
+  display: none; }
+  @media screen and (min-width: 700px) {
+    .header ul {
+      display: inline-block;
+      float: right;
+      list-style: none;
+      margin-top: 30px; }
+      .header ul li {
+        float: left;
+        margin: 5px 14px 0 0; }
+        .header ul li:last-child {
+          margin-right: 0; } }
 
 .footer {
-  margin: 2em 0 0 0;
-  font-size: 80%;
-  border-top: 4px solid #eeeeee; }
+  margin: 20px 0;
+  border-top: 4px solid #f6f6f6; }
 
 code {
-  font-family: Monaco, "Courier New", monospace;
-  background: #aaaaaa;
-  color: #333333;
-  max-width: 100%;
-  display: block;
-  padding: 10px; }
-
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em; }
-  ul.posts span {
-    color: #aaaaaa;
-    font-family: "Montserrat", Helvetica, sans-serif;
-    font-size: 80%; }
+  font-family: Menlo, Monaco, monospace;
+  background: #f6f6f6;
+  color: #9d9d9d;
+  padding: 10px;
+  word-wrap: break-word;
+  display: block; }

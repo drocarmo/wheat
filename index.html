@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Wheat
+title: Welcome to Wheat!
 ---
 
 <section>
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <p>Wheat is a simple Jekyll template for designers. It is a great starting point to help any designer quickly wip out a simple blog app, a product marketing page, prototype an idea or any instance of building a dynamic site.
+  <p>Everything in Wheat was built to be extremely watered down for quick and iterative development. {% for post in site.posts %} <a href="{{ post.url }}">{{ post.title }}</a>{% endfor %}.</p>
+  <p> Clone the repository on your local machine and start building:</p>
+  <code>git clone https://github.com/drocarmo/wheat.git</code>
+  <p>If you wanted a more detailed setup guide, go through the repository <a href="https://github.com/drocarmo/wheat/blob/master/README.md" target="_blank">readme file</a>.</p>
 </section>

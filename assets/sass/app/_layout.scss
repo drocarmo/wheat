@@ -1,6 +1,10 @@
-// Main Container
+// Single container grid
 
 .container {
-  max-width: 600px;
+  width: 90%;
   @include flex;
+
+  @include screen-medium {
+    max-width: 600px;
+  }
 }

@@ -1,11 +1,6 @@
-// ********************
-//
-// Footer Style
-//
-// ********************
+// Footer Styles
 
 .footer {
-  margin: 2em 0 0 0;
-  font-size: 80%;
-  border-top: 4px solid #eeeeee;
+  margin: 20px 0;
+  border-top: 4px solid lighten($color-gray, 30%);
 }

@@ -1,26 +1,20 @@
-// ********************
 //
-// Base Project Settings
-//
-// ********************
-
-//
-// Base DOM declarations
+// Base project declarations
 //
 
 * {
-  margin: 0;
+  @include flex;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  background-color: $color-white;
   font-family: $base-type;
-  text-align: center;
+  text-align: left;
   padding: 20px;
   color: $color-black;
 }

@@ -1,22 +1,5 @@
-// ********************
-//
-// List Styles
-//
-// ********************
+// Lists Styles
 
-.list {
+ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-
-  span {
-    color: $color-gray;
-    font-family: $base-type-sans;
-    font-size: 80%;
-  }
 }
