@@ -1,4 +1,4 @@
-### Wheat
+![Wheat](http://drocarmo.com/wheat/assets/images/logo.png)
 
 Wheat is a simple Jekyll template for designers.
 
