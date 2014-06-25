@@ -1,0 +1,20 @@
+# This is a good place to maintain/modularize data
+
+
+- platform: Behance
+  url: https://www.behance.net/drocarmo
+
+- platform: Dribbble
+  url: https://dribbble.com/drocarmo
+
+- platform: Github
+  url: https://github.com/drocarmo
+
+- platform: Rdio
+  url: http://www.rdio.com/people/drocarmo/
+
+- platform: Twitter
+  url: https://twitter.com/drocarmo
+
+- platform: Tumblr
+  url: http://drocarmo.tumblr.com/

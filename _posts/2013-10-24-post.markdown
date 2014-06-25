@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Here's an example post
+title: "Here's an example post"
 ---
 
 Hello world, I heard you like Jekyll.
