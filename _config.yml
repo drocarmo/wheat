@@ -1,5 +1,8 @@
 name: Wheat
+description: 'A simple Jekyll starter-template for designers.'
+
 markdown: kramdown
+
 pygments: true
 
 include:
