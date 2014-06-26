@@ -1,6 +1,12 @@
 // Header styles
 
 .header {
+  margin-bottom: 20px;
+
+  @include screen-medium {
+    margin-bottom: 60px;
+  }
+
   a {
     text-decoration: none;
     display: inline-block;
