@@ -11,9 +11,24 @@ html {
   font-weight: $type-weight-regular;
 }
 
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 p {
   font-size: 18px;
   margin: 20px 0;
+}
+
+blockquote {
+  margin: 50px 0;
+  padding-left: 20px;
+  border-left: 2px solid $color-black;
 }
 
 .logo {
