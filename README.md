@@ -1,8 +1,7 @@
-![Wheat](http://drocarmo.com/wheat/assets/images/logo.png)
+# Wheat
+> a Jekyll starter-template for designers.
 
-Wheat, a Jekyll starter-template for designers.
-
-#### How to get started:
+## How to get started:
 
 1. Open your terminal.app in your designated directory and paste this code: `git clone git@github.com:drocarmo/wheat.git`
 
@@ -12,7 +11,7 @@ Wheat, a Jekyll starter-template for designers.
 
 4. Begin customizing your new Jekyll site!
 
-#### A few pointers if you're brand new to Jekyll:
+## A few pointers if you're brand new to Jekyll:
 
 — First, you have to [install](http://jekyllrb.com/docs/installation/) Jekyll.
 
