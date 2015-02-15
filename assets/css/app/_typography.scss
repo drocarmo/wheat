@@ -1,0 +1,40 @@
+// Base Typography Styles
+
+$base-type: 'Lora', sans-serif;
+$base-type-logo: 'Playfair Display', serif;
+$base-type-code: Menlo, monospace;
+$type-weight-regular: 400;
+$type-weight-bold: 700;
+
+
+html {
+  font-family: $base-type;
+  font-weight: $type-weight-regular;
+}
+
+h1 {
+  display: inline-block;
+  font-family: $base-type-logo;
+  font-weight: $type-weight-bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+hr {
+  background-color: $color-black;
+  border: 0;
+  height: 4px;
+  width: 20%;
+  margin: 50px auto 100px auto;
+}

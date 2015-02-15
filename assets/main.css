@@ -39,29 +39,31 @@ table {
       max-width: 600px; } }
 
 html {
-  font-family: "Karla", sans-serif;
+  font-family: "Lora", sans-serif;
   font-weight: 400; }
+
+h1 {
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 15px; }
 
 h2 {
   font-size: 22px;
   font-weight: bold; }
 
-h3 {
-  font-size: 20px; }
-
 p {
   font-size: 18px;
   margin: 20px 0; }
 
-blockquote {
-  margin: 50px 0;
-  padding-left: 20px;
-  border-left: 2px solid #414141; }
-
-.logo {
-  font-family: "Bitter", serif;
-  display: inline-block;
-  font-size: 40px; }
+hr {
+  background-color: #383838;
+  border: 0;
+  height: 4px;
+  width: 20%;
+  margin: 50px auto 100px auto; }
 
 * {
   margin: 0 auto;
@@ -72,53 +74,38 @@ body {
   height: 100%; }
 
 body {
-  font-family: "Karla", sans-serif;
-  text-align: left;
-  padding: 20px;
-  color: #414141;
-  background: #e0c4a8;
-  line-height: 1.2; }
+  font-family: "Lora", sans-serif;
+  color: #383838;
+  line-height: 1.7; }
 
 a {
   text-decoration: underline;
   color: inherit; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  margin-bottom: 100px;
+  text-align: center; }
+  ul li {
+    display: inline;
+    margin: 5px; }
 
-.header {
-  margin-bottom: 20px; }
-  @media screen and (min-width: 700px) {
-    .header {
-      margin-bottom: 60px; } }
-  .header a {
-    text-decoration: none;
-    display: inline-block; }
-  .header img.logo {
-    width: 50px;
-    margin-bottom: -10px; }
-  .header ul {
-    display: none; }
-    @media screen and (min-width: 700px) {
-      .header ul {
-        display: inline-block;
-        float: right;
-        list-style: none;
-        margin-top: 17px; }
-        .header ul li {
-          float: left;
-          margin: 5px 14px 0 0; }
-          .header ul li:last-child {
-            margin-right: 0; } }
-
-.footer {
-  margin: 20px 0;
-  border-top: 2px solid #414141; }
+.header .logo {
+  margin-top: 100px;
+  text-align: center; }
+  .header .logo a {
+    text-decoration: none; }
+  .header .logo .logo-svg {
+    width: 35px;
+    margin-bottom: -10px;
+    margin-right: 20px; }
+.header li > a {
+  color: #0046fe; }
 
 code {
-  font-family: Menlo, Monaco, monospace;
-  background: #f6f6f6;
-  color: #5d5d5d;
+  font-family: Menlo, monospace;
+  background: #eaefff;
+  color: #00113c;
   padding: 10px;
   word-wrap: break-word;
   display: block; }

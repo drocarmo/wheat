@@ -1,12 +1,10 @@
 ![Wheat](http://drocarmo.com/wheat/assets/images/logo.png)
 
-Wheat is a simple Jekyll template for designers.
-
-It is a great starting point to help any designer quickly wip out a simple blog app, a product marketing page, prototype an idea or any instance of building a dynamic site.
+Wheat, a Jekyll starter-template for designers.
 
 #### How to get started:
 
-1. Open your terminal in your designated directory: `git clone git@github.com:drocarmo/wheat.git`
+1. Open your terminal.app in your designated directory and paste this code: `git clone git@github.com:drocarmo/wheat.git`
 
 2. Run `rake`
 
@@ -20,8 +18,8 @@ It is a great starting point to help any designer quickly wip out a simple blog 
 
 — Read through the Jekyll documentation [here](http://jekyllrb.com/docs/home/).
 
-— Read/watch my friend Greg's [setup guide](http://vgdub.com/blog/building-a-blog-with-jekyll/).
+— Go through my friend Greg's [setup guide](http://vgdub.com/blog/building-a-blog-with-jekyll/).
 
 — Familarize yourself with the Jekyll structure by looking at some other excellent, more advanced Jekyll examples: [Robb's Jekyll repository](https://github.com/robbschiller/jekyll-boilerplate), [Greg's Jekyll repository](https://github.com/vgdub/vgdub.github.io) and [Mig's Jekyll repository](https://github.com/migreyes/hazelnut).
 
-Any questions? [Shoot me a note.](mailto:pe@drocarmo.com?subject=Hey Pedro&amp;body=I need some help with Wheat..)
+Any other questions? I'd be happy to help, just [shoot me a note.](mailto:pe@drocarmo.com?subject=Hey Pedro&amp;body=I need some help with Wheat..)

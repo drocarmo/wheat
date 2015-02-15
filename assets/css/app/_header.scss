@@ -1,0 +1,23 @@
+// Header styles
+
+.header {
+  .logo {
+    margin-top: 100px;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+    }
+
+    .logo-svg {
+      width: 35px;
+      margin-bottom: -10px;
+      margin-right: 20px;
+    }
+  }
+
+
+  li > a {
+    color: $color-blue;
+  }
+}

@@ -1,5 +1,6 @@
 name: Wheat
-description: 'A simple Jekyll starter-template for designers.'
+description: 'a Jekyll starter-template for designers.'
+author: Pedro Carmo
 
 markdown: kramdown
 
@@ -16,5 +17,3 @@ exclude:
 
 keep_files:
 - .git
-
-permalink: /writing/:title
