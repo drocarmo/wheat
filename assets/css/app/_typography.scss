@@ -1,15 +1,18 @@
 // Base Typography Styles
 
-$base-type: 'Lora', sans-serif;
-$base-type-logo: 'Playfair Display', serif;
+$base-type: 'Work Sans', sans-serif;
+$base-type-logo: 'Cormorant Garamond', serif;
 $base-type-code: Menlo, monospace;
 $type-weight-regular: 400;
 $type-weight-bold: 700;
 
 
-html {
+html, body {
   font-family: $base-type;
   font-weight: $type-weight-regular;
+  color: $color-black;
+  line-height: 1.7;
+  line-height: 1.7;
 }
 
 h1 {
@@ -18,12 +21,17 @@ h1 {
   font-weight: $type-weight-bold;
   font-size: 40px;
   text-transform: uppercase;
-  letter-spacing: 15px;
+  letter-spacing: 5px;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 p {

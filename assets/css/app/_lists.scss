@@ -5,8 +5,21 @@ ul {
   margin-bottom: 100px;
   text-align: center;
 
+  li:first-child {
+    display: none;
+
+    @include screen-medium {
+      display: inline;
+      margin-right: 150px;
+      > a {
+        color: $color-black;
+      }
+    }
+  }
+
   li {
     display: inline;
     margin: 5px;
+    font-size: 18px;
   }
 }

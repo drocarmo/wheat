@@ -1,0 +1,57 @@
+// Code Styles
+
+.examples {
+  width: 90%;
+  @include flex;
+
+  @include screen-medium {
+    max-width: 1200px;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    background-color: $color-white;
+    color: $color-black;
+    box-shadow: 0px 2px 8px 0px rgba(31, 29, 29, 0.1);
+    text-decoration: none;
+    padding-bottom: 1px;
+
+    &:hover {
+      color: $color-blue;
+      box-shadow: 0px 2px 8px 0px rgba(31, 29, 29, 0.2);
+    }
+
+    @include screen-medium {
+      float: left;
+      width: 29.33%;
+      margin: 20px 2% 0;
+    }
+
+    .examples_block {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 150px;
+
+      @include screen-medium {
+        height: 200px;
+      }
+    }
+
+    .examples_block__chicago {
+      background-image: url(/assets/images/chicago.jpg);
+    }
+
+    .examples_block__pd {
+      background-image: url(/assets/images/pd.png);
+    }
+
+    .examples_block__elenco {
+      background-image: url(/assets/images/elenco.jpg);
+      background-size: contain;
+    }
+  }
+}
