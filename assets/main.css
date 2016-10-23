@@ -155,9 +155,9 @@ code {
         .examples a .examples_block {
           height: 200px; } }
     .examples a .examples_block__chicago {
-      background-image: url(/assets/images/chicago.jpg); }
+      background-image: url(/wheat/assets/images/chicago.jpg); }
     .examples a .examples_block__pd {
-      background-image: url(/assets/images/pd.png); }
+      background-image: url(/wheat/assets/images/pd.png); }
     .examples a .examples_block__elenco {
-      background-image: url(/assets/images/elenco.jpg);
+      background-image: url(/wheat/assets/images/elenco.jpg);
       background-size: contain; }
